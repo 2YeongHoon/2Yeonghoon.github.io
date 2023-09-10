@@ -9,7 +9,7 @@ version: 2
 name: 이영훈
 title: 주니어 백엔드 개발자
 email: djaakclsrn12@naver.com
-website: Your website (eg. https://google.com)(optional)
+website:
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -22,23 +22,35 @@ github_username: 2YeongHoon
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/yh_profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Write an awesome description about yourself here, this supports markdown, so you can add
 
 content:
   - title: Experience
     layout: list
     content:
       - layout: left
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: 아이쿱
+        link: https://ikoob.com/
+        sub_title: JAVA & Spring 백엔드 개발자
+        caption: 2022.07 ~ 현재
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - layout: left
+        title: gigaphoton korea
+        link: https://www.gigaphoton.com/ja
+        sub_title: 시스템 소프트웨어 개발
+        caption: 2020.10 ~ 2022.07
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - layout: left
+        title: brastech
+        link: http://jp-brastech.com/
+        sub_title: 시스템 소프트웨어 개발
+        caption: 2018.06 ~ 2020.02
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
