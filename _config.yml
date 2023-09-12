@@ -9,7 +9,7 @@ version: 2
 name: 이영훈
 title: 주니어 백엔드 개발자
 email: djaakclsrn12@naver.com
-website:
+website: https://blog.naver.com/djaakclsrn12
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -22,7 +22,9 @@ github_username: 2YeongHoon
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/yh_profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add
+  안녕하세요. 웹 백엔드 개발자 이영훈입니다.
+  저는 다양한 도메인과 개발환경을 거쳐, 헬스케어 분야의 Spring/Java 기반 백엔드 개발자로 근무하고 있습니다.
+  오늘보다 더 성장한 개발자가 되기 위한 배움과 학습에 거부감이 없으며, 동료와 함께 성장해 나가는 것을 목표로 하고 있습니다.
 
 content:
   - title: Experience
@@ -34,27 +36,35 @@ content:
         sub_title: JAVA & Spring 백엔드 개발자
         caption: 2022.07 ~ 현재
         quote: >
-          Short description of the company (optional)
+          만성질환관리 및 헬스케어 서비스 
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 당뇨, 고혈압 환자 관리 플랫폼 API개발
+          - 병원 및 운영 관리자 API개발
+          - 법률 이슈 해결을 위한 서버 작업
+          - 개발 초기 단계부터 상용 출시
       - layout: left
         title: gigaphoton korea
         link: https://www.gigaphoton.com/ja
         sub_title: 시스템 소프트웨어 개발
         caption: 2020.10 ~ 2022.07
         quote: >
-          Short description of the company (optional)
+          일본계 반도체 노광 LASER 장비 기업
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 한국지사 신설 IT부서로 사내 테스트 서버 구축 및 SVN 도입
+          - LASER 네트워크 부하 방지 브로커 서버 개발 
+          - LASER 부하 테스트 소프트웨어 개발 
+          - 본사 모니터링 솔루션 도입을 위한 고객사 커뮤니케이션 
+          - 2021 우수사원 표창 
       - layout: left
         title: brastech
         link: http://jp-brastech.com/
         sub_title: 시스템 소프트웨어 개발
         caption: 2018.06 ~ 2020.02
         quote: >
-          Short description of the company (optional)
+          1200명 규모의 일본 SI 기업
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 스터드 용접장비 개발 및 테스트
+          - 장비 제어를 위한 KIOSK 개발
   - title: Education
     layout: list
     content:
